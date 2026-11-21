@@ -1,0 +1,42 @@
+:root {
+  --olive: #bbb791;
+  --olive-secondary: #9a9771;
+  --black: #050505;
+  --charcoal: #0f0f0f;
+  --elevated: #1a1a1a;
+  --white: #ffffff;
+  --paper: #f0f1ec;
+  --mist: #e8e9e4;
+  --gray: #888888;
+  --rule: #333333;
+  --cyan: #00f2ff;
+  --sky: #0ea5e9;
+  --bg: var(--black);
+  --panel: var(--charcoal);
+  --lift: var(--elevated);
+  --text: var(--white);
+  --muted: var(--gray);
+  --line: var(--rule);
+  --accent: var(--olive);
+  --accent-hover: var(--olive-secondary);
+  --accent-text: var(--olive);
+  --ink: var(--black);
+  --signal: var(--cyan);
+  --surface-grid: color-mix(in srgb, var(--text) 5%, transparent);
+  --glass: color-mix(in srgb, var(--bg) 91%, transparent);
+  --mono: ui-monospace, Consolas, monospace;
+  --sans: Inter, Arial, Helvetica, sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  --bg: var(--white);
+  --panel: var(--paper);
+  --lift: var(--mist);
+  --text: var(--charcoal);
+  --muted: #56594f;
+  --line: #c4c6bb;
+  --accent-text: #626044;
+  --signal: var(--sky);
+  color-scheme: light;
+}

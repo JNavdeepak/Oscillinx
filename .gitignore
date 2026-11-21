@@ -7,18 +7,39 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
-dist
-dist-ssr
-*.local
+.pnp
+.pnp.js
 
-# Editor directories and files
+# Next.js build outputs
+.next/
+out/
+build/
+dist/
+
+# Large release binaries (hosted on GitHub Releases)
+*.apk
+
+# Environment variables
+.env*.local
+.env
+
+# Editor & OS files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
+desktop.ini
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo

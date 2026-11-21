@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Phi-4 Mini Instruct",
+    "size": "2.49 GB",
+    "url": "https://huggingface.co/unsloth/Phi-4-mini-instruct-GGUF/resolve/main/Phi-4-mini-instruct-Q4_K_M.gguf?download=true"
+  },
+  {
+    "name": "Gemma 3 4B",
+    "size": "2.5 GB",
+    "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q4_K_M.gguf?download=true"
+  },
+  {
+    "name": "Qwen3 8B",
+    "size": "5.03 GB",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf?download=true"
+  },
+  {
+    "name": "Gemma 3 12B",
+    "size": "7.3 GB",
+    "url": "https://huggingface.co/ggml-org/gemma-3-12b-it-GGUF/resolve/main/gemma-3-12b-it-Q4_K_M.gguf?download=true"
+  },
+  {
+    "name": "Qwen3 14B",
+    "size": "9 GB",
+    "url": "https://huggingface.co/Qwen/Qwen3-14B-GGUF/resolve/main/Qwen3-14B-Q4_K_M.gguf?download=true"
+  }
+]

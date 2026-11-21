@@ -1,16 +1,26 @@
-# React + Vite
+# OSCILLINX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Responsive React and Next.js redesign of the OSCILLINX website. The App Router preserves the home, documentation, model library, command line, privacy, and terms routes.
 
-Currently, two official plugins are available:
+## Preview the packaged build
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After extracting the ZIP, run `python preview.py` from the oscillinx folder. It opens the prebuilt site in your browser. Press Ctrl+C in the terminal to stop the local server.
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Use Node.js 22 or newer.
 
-## Expanding the ESLint configuration
+```sh
+npm ci
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open http://localhost:3000. Run `npm run build` to generate the production site in `out/`. Serve that directory with a static web server, or deploy the project to Vercel with Next.js framework detection.
+
+## Branding and releases
+
+Edit `app/tokens.css` for the brand palette, theme-specific surfaces, text, borders, and interaction colors. The selected theme is stored locally. Use the shared Brand component in `components/Frame.tsx` to add the approved full-color logo when supplied. The current header and footer use the typographic OSCILLINX wordmark.
+
+The site's original Windows installer belongs at `public/downloads/Oscillinx.exe`. The Android release URL is centralized in `components/Release.tsx`. The product image is from the original desktop website. The terminal transcript and mobile conversation are illustrative previews.
+
+
